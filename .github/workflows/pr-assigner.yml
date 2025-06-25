@@ -1,0 +1,14 @@
+name: PR Assigner
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign PR
+        uses: actions/assigner@v2
+        with:
+          assignees: jay 

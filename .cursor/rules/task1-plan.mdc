@@ -1,0 +1,32 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# TASK-001 개발 계획: 프로젝트 구조 및 환경 설정
+
+## 1. 구현 항목
+- 프로젝트 기본 폴더 구조 생성
+- Python 가상 환경 설정
+- 의존성 관리를 위한 `requirements.txt` 파일 생성
+- 환경 변수 관리를 위한 `.env` 파일 설정
+
+## 2. 기술 스택 및 라이브러리
+- **언어**: Python
+- **프레임워크**: FastAPI (Backend), Streamlit (Frontend)
+- **주요 라이브러리**:
+  - `fastapi`
+  - `uvicorn`
+  - `streamlit`
+  - `python-dotenv`
+  - `langchain-google-genai`
+  - `langchain`
+  - `langgraph`
+  - `langchain-community`
+  - `duckduckgo-search`
+  
+## 3. 개발 계획
+1. `backend` 및 `frontend` 폴더 생성
+2. `backend/requirements.txt` 및 `frontend/requirements.txt` 파일 생성
+3. `backend` 및 `frontend`에 필요한 기본 라이브러리 목록을 각 `requirements.txt` 파일에 추가
+4. LangSmith 연동을 위한 `.env` 파일 생성 및 `LANGSMITH_API_KEY` 변수 추가
